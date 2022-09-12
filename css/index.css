@@ -434,3 +434,74 @@ li a:hover{
     width: 100%;
     padding: 50px 0;
 }
+
+.contact__info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.contact__info--detail i{
+    padding-bottom: 15px;
+    color: #4e2a84;
+
+}
+.contact__info--detail p{
+    line-height: 2;
+}
+
+
+/* FOOTER */
+.footer{
+    background-color: black;
+    color: white;
+    
+}
+.footer__info{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+.footer__detail p{
+    line-height: 2;
+    padding: 10px 0;
+}
+.footer__detail{
+    width: 25%;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.footer .sign{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.footer__detail table td{
+    border-bottom: 1px dotted white;
+    padding: 17px 0;
+}
+.footer__detail input[type=text]{
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+.footer__detail input[type=text]:focus{
+    outline: none;
+}
+.footer__detail h3{
+    color: #ff0e83;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.footer__detail input[type=submit]{
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #ff0e83;
+    border-radius: 7px;
+    transition: all .5s;
+}
+.footer__detail input[type=submit]:hover{
+    background-color: white;
+    
+}
